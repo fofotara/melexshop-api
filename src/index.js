@@ -22,7 +22,7 @@ const authorizedAxios = async (props) => {
 
     return axios.create({
         baseURL: props.host,
-        headers: { ...defaultHeaders, }
+        headers: defaultHeaders
     });
 }
 
